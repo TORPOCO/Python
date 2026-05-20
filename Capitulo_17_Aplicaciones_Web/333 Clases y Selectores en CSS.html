@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selectores CSS</title>
+
+    <style>
+        /* 1. Selector universal */
+        * {
+            font-family: Arial;
+        }
+
+        /* 2. Selector de etiqueta */
+        h1 {
+            color: blue;
+        }
+
+        /* 3. Selector de clase */
+        .texto {
+            color: green;
+        }
+
+        /* 4. Selector de ID */
+        #especial {
+            color: red;
+        }
+
+        /* 5. Selector descendente */
+        div p {
+            background-color: lightgray;
+        }
+
+        /* 6. Selector hijo directo */
+        div > h2 {
+            color: purple;
+        }
+
+        /* 7. Selector de atributo */
+        input[type="text"] {
+            border: 2px solid black;
+        }
+
+        /* 8. Pseudoclase */
+        a:hover {
+            color: orange;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Título principal</h1>
+
+    <p class="texto">Párrafo con clase</p>
+    <p id="especial">Párrafo con ID</p>
+
+    <div>
+        <h2>Subtítulo dentro de div</h2>
+        <p>Párrafo dentro de div</p>
+    </div>
+
+    <input type="text" placeholder="Escribe aquí">
+
+    <br><br>
+
+    <a href="#">Pasa el mouse aquí</a>
+
+</body>
+</html>

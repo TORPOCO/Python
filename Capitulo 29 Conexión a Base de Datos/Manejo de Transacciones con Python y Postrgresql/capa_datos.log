@@ -1,0 +1,5 @@
+03:57:07 PM: DEBUG [Manejo de Logging.py:9] Mensaje a nivel debug
+03:57:07 PM: INFO [Manejo de Logging.py:10] Mensaje a nivel info
+03:57:07 PM: WARNING [Manejo de Logging.py:11] Mensaje a nivel warning
+03:57:07 PM: ERROR [Manejo de Logging.py:12] Mensaje a nivel error
+03:57:07 PM: CRITICAL [Manejo de Logging.py:13] Mensaje a nivel critico

@@ -1,0 +1,7 @@
+# Asignacion multiple
+x, y, z = 5, 'Hola', -9.15
+print(f'Valor de x = {x}, y = {y}, z = {z}')
+
+# Asignacion encadenada.
+a = b = c = 10
+print(f'Valor a = {a}, b = {b}, c = {c}')
